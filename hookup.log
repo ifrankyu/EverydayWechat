@@ -1,0 +1,26 @@
+Wed, 19 Jun 2019 11:09:36 register.py[line:85] INFO Start auto replying.
+Wed, 19 Jun 2019 11:09:36 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Wed, 19 Jun 2019 11:09:36 base.py[line:878] INFO Added job "send_alarm_msg" to job store "default"
+Wed, 19 Jun 2019 11:09:36 base.py[line:162] INFO Scheduler started
+Wed, 19 Jun 2019 11:11:00 base.py[line:123] INFO Running job "send_alarm_msg (trigger: cron[hour='11', minute='11'], next run at: 2019-06-19 11:11:00 CST)" (scheduled at 2019-06-19 11:11:00+08:00)
+Wed, 19 Jun 2019 11:11:00 hongmeng.py[line:162] INFO 
+启动定时自动提醒...
+Wed, 19 Jun 2019 11:11:00 hongmeng.py[line:179] INFO 定时给『文件传输助手』发送的内容是:
+When peace has been broken anywhere, the peace of all countries everywhere is in danger.无论哪个地区的和平遭到破坏，世界各国的和平都会受到威胁。
+2019-06-19 星期三 多云 南风 <3级 高温 33.0℃ 低温 25.0℃ 阴晴之间，谨防紫外线侵扰
+宝贝这是我们在一起的第 618 天。
+来自最爱你的我
+发送成功...
+
+
+Wed, 19 Jun 2019 11:11:00 hongmeng.py[line:194] INFO 定时给群聊『技术交流群』发送的内容是:
+扎古不论怎么化妆都不可能变成高达的。
+2019-06-19 星期三 多云 南风 <3级 高温 33.0℃ 低温 25.0℃ 阴晴之间，谨防紫外线侵扰
+宝贝这是我们在一起的第 5 天。
+来自帅气的群主
+发送成功...
+
+
+Wed, 19 Jun 2019 11:11:00 hongmeng.py[line:197] INFO 自动提醒消息发送完成...
+
+Wed, 19 Jun 2019 11:11:00 base.py[line:144] INFO Job "send_alarm_msg (trigger: cron[hour='11', minute='11'], next run at: 2019-06-20 11:11:00 CST)" executed successfully

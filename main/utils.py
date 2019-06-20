@@ -12,7 +12,7 @@ from main.common import (
     get_yaml
 )
 
-DICTUM_NAME_DICT = {1: 'wufazhuce', 2: 'acib', 3: 'lovelive', 4: 'hitokoto', 5: 'rtjokes'}
+DICTUM_NAME_DICT = { 1: 'acib', 2: 'wufazhuce', 3: 'lovelive', 4: 'hitokoto', 5: 'rtjokes'}
 BOT_NAME_DICT = {1: 'tuling123', 2: 'yigeai', 3: 'qingyunke'}
 
 
@@ -76,7 +76,7 @@ def get_diff_time(start_date):
     try:
         start_datetime = datetime.strptime(start_date, '%Y-%m-%d')
         day_delta = (datetime.now() - start_datetime).days + 1
-        delta_msg = '宝贝这是我们在一起的第 {} 天。'.format(day_delta)
+        delta_msg = '小姐姐，早安~这是我们认识的第 {} 天。'.format(day_delta)
     except Exception as exception:
         print(exception)
         delta_msg = None

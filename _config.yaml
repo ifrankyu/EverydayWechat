@@ -9,25 +9,30 @@ is_forced_switch: False
 is_auto_relay: True
 
 # 机器人渠道（1: 图灵机器人，2: 一个AI ,3 : 青云客)
-bot_channel: 3
+bot_channel: 2
 
 #图灵机器人(http://www.tuling123.com/)免费用户每天可用 100 条。
 #请在官网注册并申请 apikey ,userID。
 turing_conf:
-  apiKey: ''
+  apiKey: 'f238afdc27c140fa8bf00a9eb3291eeb'
 
 
 # 一个 Al (http://www.yige.ai/),这个功能挺多的，朋友们自行申请，训练。
 #  client_token.客户端访问令牌。note: 已填入的这个是博主自己申请的。朋友们最好自行申请并替换。
 yigeai_conf:
-  client_token: ''
+  client_token: '55F3440EFBB9C292BDBAA0A02C3E1B15'
 
 # 指定自动回复的好友名单。（填：文件传输助手，可回复自己，测试效果）
 # - '好友1'
 # - '好友2'
 auto_reply_names:
-  - '古典'
+  - '筱婷'
+  - '冀曼雯'
+  - '大眼睛'
   - '文件传输助手'
+  - '绿萝萝萝lililili'
+#  - '到处乱走'
+  - 'Yzx'
 
 
 #------------------------ 定时提醒功能--------------------------
@@ -35,26 +40,64 @@ alarm_info:
   #True 开启定时提醒，False 关闭
   is_alarm: True
   #定时发送时间
-  alarm_timed: '19:00'
+  alarm_timed: '09:02'
 
 girlfriend_infos:
-  - #女友微信昵称或者备注名，不能输入微信号。（如填：文件传输助手，发消息到文件传输助手，测试效果）
-    wechat_name: '文件传输助手'
-    #女友所在城市，用于发送天气。（可空）
-    city_name: '桂林'
-    # 格言渠道（1 : ONE●一个，2 : 词霸（每日英语，双语）4 : 一言，5：笑话)(可空)
-    dictum_channel : 2
-    # 从那天开始勾搭的(最终效果为：宝贝这是我们在一起的第 111 天)（可空）
-    start_date: '2017-10-10'
-    # 后缀（可空）
-    sweet_words: '来自最爱你的我。'
-
-#  如果你有多个好友需要发送，则参照这个样式，复制即可
-#  如不需要，则删除或注解下面所有的数据
-  - group_name: 'EverydayWechat 交流群' # 群聊名称，必须要把需要的群聊保存到通讯录。
-    city_name: '漳州'
+  -
+    wechat_name: '到处乱走'
+    city_name: '长沙'
+    dictum_channel : 3 # 格言渠道（1 : 词霸（每日英语，双语）, 2 : ONE●一个，3:土味情话，4 : 一言，5：笑话)(可空)
+    start_date: '2019-06-16'
+    sweet_words: '来自Yzx(法兰克)'
+  -
+    wechat_name: '筱婷'
+    city_name: '长沙'
+    dictum_channel : 3
+    start_date: '2019-06-15'
+    sweet_words: '来自Yzx(法兰克)'
+  -
+    wechat_name: 'Yzx'
+    city_name: '长沙'
+    dictum_channel : 3
+    start_date: '2019-06-15'
+    sweet_words: '来自Yzx(法兰克)'
+  # -
+  #   wechat_name: '龟龟'
+  #   city_name: '长沙'
+  #   dictum_channel : 3
+  #   start_date: '2019-04-28'
+  #   sweet_words: '来自Yzx(法兰克)'
+  -
+    group_name: '技术交流群'
+    city_name: '长沙'
     dictum_channel : 4
-    start_date: '2019-6-15'
-    sweet_words: '来自帅气的群主。'
+    start_date: '2018-11-30'
+    sweet_words: '来自帅气的群主'
+
+hookup_girls:
+  -
+    wechat_name: '筱婷'
+    city_name: '长沙'
+    dictum_channel : 3
+    start_date: '2019-06-16'
+    sweet_words: '来自Yzx(法兰克)'
+  # -
+  #   wechat_name: '到处乱走'
+  #   city_name: '长沙'
+  #   dictum_channel : 3
+  #   start_date: '2019-06-16'
+  #   sweet_words: '来自Yzx(法兰克)'
+  # -
+  #   wechat_name: 'Yzx'
+  #   city_name: '长沙'
+  #   dictum_channel : 1
+  #   start_date: '2019-06-14'
+  #   sweet_words: '来自Yzx(法兰克)'
+  # -
+  #   group_name: '技术交流群'
+  #   city_name: '长沙'
+  #   dictum_channel : 3
+  #   start_date: '2019-6-15'
+  #   sweet_words: '来自骚气的大哥'
 
 
