@@ -1,54 +1,10 @@
-06-20 09:00:38 hongmeng.py[line:37] INFO 自动回复中的昵称『文件传输助手』有误。
-06-20 09:00:38 register.py[line:85] INFO Start auto replying.
-06-20 09:00:38 hongmeng.py[line:37] INFO 登录成功
-06-20 09:00:38 hongmeng.py[line:37] INFO 已开启图灵自动回复...
-06-20 09:00:38 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
-06-20 09:00:38 hongmeng.py[line:37] INFO 已开启定时发送提醒功能...
-06-20 09:00:38 base.py[line:878] INFO Added job "send_alarm_msg" to job store "default"
-06-20 09:00:38 base.py[line:162] INFO Scheduler started
-06-20 09:02:00 base.py[line:123] INFO Running job "send_alarm_msg (trigger: cron[hour='9', minute='2'], next run at: 2019-06-20 09:02:00 CST)" (scheduled at 2019-06-20 09:02:00+08:00)
-06-20 09:02:00 hongmeng.py[line:37] INFO 
-启动定时自动提醒...
-06-20 09:02:02 hongmeng.py[line:37] INFO 定时给『到处乱走』发送的内容是:
-你眼瞎吗？撞在我的心口上了。
-2019-06-20 星期四 多云 南风 3-4级 高温 35.0℃ 低温 26.0℃ 阴晴之间，谨防紫外线侵扰
-第 5 天。
-来自Yzx(法兰克)
-发送成功...
-
-
-06-20 09:02:03 hongmeng.py[line:37] INFO 定时给『筱婷』发送的内容是:
-莫文蔚的阴天，孙燕姿的雨天，周杰伦的晴天，都不如你和我聊天。
-2019-06-20 星期四 多云 南风 3-4级 高温 35.0℃ 低温 26.0℃ 阴晴之间，谨防紫外线侵扰
-第 6 天。
-来自Yzx(法兰克)
-发送成功...
-
-
-06-20 09:02:03 hongmeng.py[line:37] INFO 定时给『Yzx』发送的内容是:
-这是我的手背，这是我的脚背，你是我的宝贝。
-2019-06-20 星期四 多云 南风 3-4级 高温 35.0℃ 低温 26.0℃ 阴晴之间，谨防紫外线侵扰
-第 6 天。
-来自Yzx(法兰克)
-发送成功...
-
-
-06-20 09:02:04 hongmeng.py[line:37] INFO 定时给『龟龟』发送的内容是:
-不要愁老之将至，你老了一定很可爱。而且，假如你老了十岁，我当然也同样老了十岁，世界也老了十岁，上帝也老了十岁，一切都是一样。
-2019-06-20 星期四 多云 南风 3-4级 高温 35.0℃ 低温 26.0℃ 阴晴之间，谨防紫外线侵扰
-第 54 天。
-来自Yzx(法兰克)
-发送成功...
-
-
-06-20 09:02:04 hongmeng.py[line:37] INFO 定时给群聊『技术交流群』发送的内容是:
-数一个豆荚之中所有的豆子，或许为它们命名更好，这样它们就不会无名成长了。
-2019-06-20 星期四 多云 南风 3-4级 高温 35.0℃ 低温 26.0℃ 阴晴之间，谨防紫外线侵扰
-第 203 天。
-来自帅气的群主
-发送成功...
-
-
-06-20 09:02:04 hongmeng.py[line:37] INFO 自动提醒消息发送完成...
-
-06-20 09:02:04 base.py[line:144] INFO Job "send_alarm_msg (trigger: cron[hour='9', minute='2'], next run at: 2019-06-21 09:02:00 CST)" executed successfully
+06-25 08:47:42 hongmeng.py[line:37] INFO 自动回复中的昵称『文件传输助手』有误。
+06-25 08:47:42 register.py[line:85] INFO Start auto replying.
+06-25 08:47:42 hongmeng.py[line:37] INFO 登录成功
+06-25 08:47:42 hongmeng.py[line:37] INFO 已开启图灵自动回复...
+06-25 08:47:42 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+06-25 08:47:42 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+06-25 08:47:42 hongmeng.py[line:37] INFO 已开启定时发送提醒功能...
+06-25 08:47:42 base.py[line:878] INFO Added job "send_alarm_msg" to job store "default"
+06-25 08:47:42 base.py[line:878] INFO Added job "hook_up_girls" to job store "default"
+06-25 08:47:42 base.py[line:162] INFO Scheduler started

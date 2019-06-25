@@ -28,10 +28,10 @@ yigeai_conf:
 auto_reply_names:
   - '筱婷'
   - '冀曼雯'
-  - '大眼睛'
+  #- '大眼睛'
   - '文件传输助手'
   - '绿萝萝萝lililili'
-#  - '到处乱走'
+  - 'smile_angelxiao'
   - 'Yzx'
 
 
@@ -40,7 +40,7 @@ alarm_info:
   #True 开启定时提醒，False 关闭
   is_alarm: True
   #定时发送时间
-  alarm_timed: '09:02'
+  alarm_timed: '09:00'
 
 girlfriend_infos:
   -
@@ -48,31 +48,44 @@ girlfriend_infos:
     city_name: '长沙'
     dictum_channel : 3 # 格言渠道（1 : 词霸（每日英语，双语）, 2 : ONE●一个，3:土味情话，4 : 一言，5：笑话)(可空)
     start_date: '2019-06-16'
-    sweet_words: '来自Yzx(法兰克)'
+    prefix: '小Baby，早安，工作再忙，不要忘记早餐哦~'
+    sweet_words: '来自Yzx的机器人-黑子'
   -
     wechat_name: '筱婷'
     city_name: '长沙'
     dictum_channel : 3
     start_date: '2019-06-15'
-    sweet_words: '来自Yzx(法兰克)'
-  -
-    wechat_name: 'Yzx'
-    city_name: '长沙'
-    dictum_channel : 3
-    start_date: '2019-06-15'
-    sweet_words: '来自Yzx(法兰克)'
+    prefix: '小Baby，早安，工作再忙，不要忘记早餐哦~'
+    sweet_words: '来自Yzx的机器人-黑子'
+
   # -
-  #   wechat_name: '龟龟'
+  #   wechat_name: 'Yzx'
   #   city_name: '长沙'
   #   dictum_channel : 3
-  #   start_date: '2019-04-28'
-  #   sweet_words: '来自Yzx(法兰克)'
+  #   start_date: '2019-06-15'
+  #   prefix: '小Baby，早安，工作再忙，不要忘记早餐哦~'
+  #   sweet_words: '来自Yzx的机器人-黑子'
+
   -
-    group_name: '技术交流群'
+    wechat_name: 'smile_angelxiao'
     city_name: '长沙'
     dictum_channel : 4
-    start_date: '2018-11-30'
-    sweet_words: '来自帅气的群主'
+    start_date: '2019-06-20'
+    prefix: '亲爱的朋友，早安，工作再忙，不要忘记早餐哦~'
+    sweet_words: '来自Yzx的机器人-黑子'
+  -
+    wechat_name: '龟龟'
+    city_name: '长沙'
+    dictum_channel : 4
+    start_date: '2019-04-28'
+    prefix: '亲爱的朋友，早安，工作再忙，不要忘记早餐哦~'
+    sweet_words: '来自Yzx的机器人-黑子'
+  # -
+  #   group_name: '技术交流群'
+  #   city_name: '长沙'
+  #   dictum_channel : 4
+  #   start_date: '2018-11-30'
+  #   sweet_words: '来自帅气的群主'
 
 hookup_girls:
   -
@@ -80,19 +93,25 @@ hookup_girls:
     city_name: '长沙'
     dictum_channel : 3
     start_date: '2019-06-16'
-    sweet_words: '来自Yzx(法兰克)'
-  # -
-  #   wechat_name: '到处乱走'
-  #   city_name: '长沙'
-  #   dictum_channel : 3
-  #   start_date: '2019-06-16'
-  #   sweet_words: '来自Yzx(法兰克)'
+    sweet_words: '来自Yzx的机器人-黑子'
+  -
+    wechat_name: '到处乱走'
+    city_name: '长沙'
+    dictum_channel : 3
+    start_date: '2019-06-16'
+    sweet_words: '来自Yzx的机器人-黑子'
+  -
+    wechat_name: 'smile_angelxiao'
+    city_name: '长沙'
+    dictum_channel : 3
+    start_date: '2019-06-16'
+    sweet_words: '来自Yzx的机器人-黑子'
   # -
   #   wechat_name: 'Yzx'
   #   city_name: '长沙'
   #   dictum_channel : 1
   #   start_date: '2019-06-14'
-  #   sweet_words: '来自Yzx(法兰克)'
+  #   sweet_words: '来自Yzx的机器人-黑子'
   # -
   #   group_name: '技术交流群'
   #   city_name: '长沙'

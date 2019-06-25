@@ -97,8 +97,8 @@ def text_reply(msg):
             elif receive_text.find('格言') >= 0:
                 reply_text = get_dictum_info(2)
                 print('格言' + reply_text)
-            #else:
-                # reply_text = get_bot_info(receive_text, uuid)
+            # else:
+            #     reply_text = get_bot_info(receive_text, uuid)
             time.sleep(1)  # 休眠一秒，保安全，想更快的，可以直接用。
             if reply_text:  # 如内容不为空，回复消息
                 if msg['ToUserName'] == FILEHELPER:
@@ -182,7 +182,7 @@ def send_alarm_msg():
     for gf in conf.get('girlfriend_infos'):
         dictum = get_dictum_info(gf.get('dictum_channel'))
         weather = get_weather_info(gf.get('city_name'))
-        diff_time = get_diff_time(gf.get('start_date'))
+        diff_time = gf.get('prefix') + get_diff_time(gf.get('start_date'))
         sweet_words = gf.get('sweet_words')
         send_msg = '\n'.join(x for x in [dictum, weather, diff_time, sweet_words] if x)
         # print_logging(send_msg)
@@ -237,12 +237,12 @@ def init_alarm():
 
     # 定时任务
     scheduler = BlockingScheduler()
-    # 每天9：30左右给女朋友发送每日一句
+    # 每天9：30左右给爱妃们发送每日一句
     scheduler.add_job(send_alarm_msg, 'cron', hour=hour,
                       minute=minute, misfire_grace_time=15 * 60)
 
-    # # 每隔 30 秒发送一条数据用于测试。
-    # scheduler.add_job(hook_up_girls, 'interval', seconds=3600)
+    # 每隔 3600 秒给爱妃们发送一条土味情话
+    scheduler.add_job(hook_up_girls, 'interval', seconds=3600)
 
     print_logging('已开启定时发送提醒功能...')
     scheduler.start()
